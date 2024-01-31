@@ -81,7 +81,7 @@ span {
   font-size: 12px;
 }
 
-a {
+a , a:visited {
   color: #333;
   font-size: 14px;
   text-decoration: none;
@@ -119,12 +119,16 @@ button.ghost {
   border-color: #fff;
 }
 
+
+/* /////////////////////////////////////  */ /* /////////////////////////////////////  */
+
 .form-container {
   position: absolute;
   top: 0;
   height: 100%;
   transition: all 0.6s ease-in-out;
 }
+
 
 form {
   background: #575454;
@@ -139,21 +143,14 @@ form {
 
 .form-container input {
   background: var(--input-color);
-  border: 2px solid red;
+  border: 2px solid black;
   border-radius: 10px 10px;
   padding: 12px 15px;
   margin: 8px 0;
   width : 100%;
+  font-size: 16px;
   }
 
-input {
-  background-color: #eee;
-  color: black;
-  
-  padding: 12px 15px;
-  margin: 8px 0;
-  width: 100%;
-}
 
 .container {
   background: black;
@@ -310,13 +307,46 @@ img.logo {
   width: 40px;
 }
 
-.form-container input {
-  background: #eee;
-  border: none;
-  padding: 12px 15px;
-  margin: 8px 0;
-  width: 100%;
+/* /////////////////////////////////////  */ /* /////////////////////////////////////  */
+
+a.spotify {
+  background: rgb(0, 255, 149);
+  border-radius: 50%;
 }
+
+a.fb {
+  background: #316FF6;
+  border-radius: 50%;
+}
+
+
+a.pinterest {
+  background: #E60023;
+  border-radius: 50%;
+}
+
+a.instagram {
+  background:#fccc63 ;
+  border-radius: 50%;
+}
+
+a.yt {
+  background: #CD201F;
+  border-radius: 50%;
+}
+
+a.twit {
+  background: #1DA1F2;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+/* /////////////////////////////////////  */ /* /////////////////////////////////////  */
+
 
 footer {
   background-color: #222;
